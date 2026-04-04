@@ -1,0 +1,9 @@
+osascript -e 'tell application "System Events" to get bundle identifier of first process whose frontmost is true'
+
+
+osascript -e 'tell application "System Events" to get {name, bundle identifier} of (every process whose background only is false)'
+
+
+osascript -e 'tell application "System Events" to get bundle identifier of first process whose frontmost is true'
+
+
