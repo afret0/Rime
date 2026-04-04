@@ -29,3 +29,9 @@ patch:
 
   punctuator:                 # 标点符号配置
     full_shape: false          # 默认使用半角符号（false = 半角，true = 全角）
+
+  switcher:
+    save_options:
+      - full_shape
+      - ascii_punct
+      - simplification

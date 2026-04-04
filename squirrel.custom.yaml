@@ -20,9 +20,9 @@ patch:
 
   app_options:
     com.microsoft.VSCode:
-      ascii_mode: false
+      ascii_mode: true
     com.microsoft.VSCodeInsiders:
-      ascii_mode: false
+      ascii_mode: true
 
   style:
     color_scheme: minimal_modern_dark
