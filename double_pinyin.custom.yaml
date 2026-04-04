@@ -1,0 +1,17 @@
+patch:
+  switches/@2/reset: 1  # 默认使用简体输出（汉字）
+  custom_phrase:
+    dictionary: ""
+    user_dict: custom_phrase
+    db_class: stabledb
+    enable_completion: false
+    enable_sentence: false
+    initial_quality: 1
+  engine/translators:
+    - punct_translator
+    - "table_translator@custom_phrase"
+    - reverse_lookup_translator
+    - script_translator
+  translator/enable_user_dict: false
+  translator/enable_encoder: false
+  translator/encode_commit_history: false

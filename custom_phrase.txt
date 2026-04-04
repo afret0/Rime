@@ -1,0 +1,8 @@
+# Rime custom phrases
+# Format: phrase<TAB>code<TAB>weight
+# - code: input code for your current schema (double pinyin in your case)
+# - weight: larger number appears earlier
+# Example:
+# 想你了	xdnl	10000
+# 大桥	dq	9000
+

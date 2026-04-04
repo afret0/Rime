@@ -1,0 +1,31 @@
+patch:
+  schema_list:                # 输入方案列表（可以在输入法菜单里切换）
+    - schema: double_pinyin  # 自然码双拼方案
+
+  menu:
+    page_size: 5              # 候选词数量（默认 5，这里改成 9，更方便选择）
+
+  ascii_composer:             # 英文模式相关配置
+    good_old_caps_lock: true  # CapsLock 切换中英文
+    switch_key:               # Shift 键快速切换
+      Caps_Lock: commit_code  # CapsLock 上屏并切换
+      Shift_L: inline_ascii   # 左 Shift 临时英文
+      Shift_R: inline_ascii   # 右 Shift 临时英文
+
+  key_binder:                 # 快捷键绑定
+    bindings:
+      - { when: always, accept: Shift_L, toggle: ascii_mode }   # 左 Shift 切换中英文
+      - { when: always, accept: Shift_R, toggle: ascii_mode }   # 右 Shift 切换中英文
+      - { when: composing, accept: Tab, send: Page_Down }       # Tab 翻页
+      - { when: composing, accept: Shift+Tab, send: Page_Up }   # Shift+Tab 上一页
+      - { when: composing, accept: Control+Shift+1, toggle: ascii_punct } # Ctrl+Shift+1 切换中英文标点
+      - { when: composing, accept: Control+Shift+2, toggle: full_shape }  # Ctrl+Shift+2 切换全角/半角
+      - { when: composing, accept: comma, send: Page_Down }     # 输入逗号（，）翻到下一页
+      - { when: composing, accept: period, send: Page_Up }      # 输入句号（。）翻到上一页
+
+  recognizer:                 # 正则匹配规则
+    patterns:
+      uppercase: "[A-Z][-_0-9A-Za-z]*$" # 大写字母自动识别为英文
+
+  punctuator:                 # 标点符号配置
+    full_shape: false          # 默认使用半角符号（false = 半角，true = 全角）

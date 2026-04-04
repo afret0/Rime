@@ -1,0 +1,5 @@
+patch:
+  switches/@2/reset: 1  # 默认使用简体输出（汉字）
+  translator/enable_user_dict: false
+  translator/enable_encoder: false
+  translator/encode_commit_history: false

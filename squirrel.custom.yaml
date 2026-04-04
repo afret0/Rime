@@ -1,0 +1,36 @@
+patch:
+  preset_color_schemes:
+    minimal_modern_dark:
+      name: "护眼极简深色／Comfort Minimal Dark"
+      author: "Copilot"
+      back_color: 0x202020
+      border_color: 0x2C2C2C
+      border_width: 8
+      border_height: 8
+      corner_radius: 12
+      candidate_text_color: 0xD7DFD4
+      comment_text_color: 0x8A9388
+      label_color: 0x9BA39A
+      hilited_back_color: 0x202020
+      hilited_candidate_back_color: 0x3A3A3A
+      hilited_candidate_text_color: 0xEEF4EC
+      hilited_comment_text_color: 0xC7D0C3
+      hilited_candidate_label_color: 0xEEF4EC
+      text_color: 0xD7DFD4
+
+  app_options:
+    com.microsoft.VSCode:
+      ascii_mode: false
+    com.microsoft.VSCodeInsiders:
+      ascii_mode: false
+
+  style:
+    color_scheme: minimal_modern_dark
+    font_face: "PingFang SC"
+    font_point: 18
+    label_font_point: 16
+    line_spacing: 6
+    spacing: 12
+    candidate_list_layout: linear
+    candidate_format: "%c %@"
+    inline_preedit: false

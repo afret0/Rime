@@ -1,0 +1,57 @@
+__build_info:
+  rime_version: 1.16.0
+  timestamps:
+    default: 1768354364
+    default.custom: 1775327537
+    key_bindings: 1768354364
+    key_bindings.custom: 0
+    punctuation: 1768354364
+    punctuation.custom: 0
+ascii_composer:
+  good_old_caps_lock: true
+  switch_key:
+    Caps_Lock: commit_code
+    Shift_L: inline_ascii
+    Shift_R: inline_ascii
+config_version: 0.50
+key_binder:
+  bindings:
+    - {accept: Shift_L, toggle: ascii_mode, when: always}
+    - {accept: Shift_R, toggle: ascii_mode, when: always}
+    - {accept: Tab, send: Page_Down, when: composing}
+    - {accept: "Shift+Tab", send: Page_Up, when: composing}
+    - {accept: "Control+Shift+1", toggle: ascii_punct, when: composing}
+    - {accept: "Control+Shift+2", toggle: full_shape, when: composing}
+    - {accept: comma, send: Page_Down, when: composing}
+    - {accept: period, send: Page_Up, when: composing}
+menu:
+  page_size: 5
+punctuator:
+  full_shape: false
+recognizer:
+  patterns:
+    uppercase: "[A-Z][-_0-9A-Za-z]*$"
+schema_list:
+  - schema: double_pinyin
+selector:
+  bindings:
+    ISO_Left_Tab: previous_candidate
+    "Shift+Tab": previous_candidate
+    Tab: next_candidate
+switcher:
+  abbreviate_options: true
+  caption: "〔方案選單〕"
+  fold_options: true
+  hotkeys:
+    - "Control+grave"
+    - "Control+Shift+grave"
+    - F4
+  option_list_separator: "／"
+  save_options:
+    - full_shape
+    - ascii_punct
+    - simplification
+    - extended_charset
+    - zh_hant
+    - zh_hans
+    - zh_hant_tw
