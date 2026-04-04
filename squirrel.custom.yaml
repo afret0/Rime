@@ -27,7 +27,7 @@ patch:
   style:
     color_scheme: minimal_modern_dark
     font_face: "PingFang SC"
-    font_point: 18
+    font_point: 16
     label_font_point: 16
     line_spacing: 6
     spacing: 12

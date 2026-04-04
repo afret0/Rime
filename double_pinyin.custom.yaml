@@ -1,4 +1,5 @@
 patch:
+  switches/@0/states: [ 中, EN ]
   switches/@2/reset: 1  # 默认使用简体输出（汉字）
   custom_phrase:
     dictionary: ""
