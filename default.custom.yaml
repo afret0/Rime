@@ -14,7 +14,7 @@ patch:
 
   key_binder:                 # 快捷键绑定
     bindings:
-      - { when: always, accept: Shift_L, toggle: ascii_mode }   # 左 Shift 切换中英文
+      # - { when: always, accept: Shift_L, toggle: ascii_mode }   # 左 Shift 切换中英文
       - { when: always, accept: Shift_R, toggle: ascii_mode }   # 右 Shift 切换中英文
       - { when: composing, accept: Tab, send: Page_Down }       # Tab 翻页
       - { when: composing, accept: Shift+Tab, send: Page_Up }   # Shift+Tab 上一页
