@@ -10,6 +10,7 @@ patch:
     initial_quality: 1
   engine/translators:
     - punct_translator
+    - lua_translator@date_time_translator
     - "table_translator@custom_phrase"
     - reverse_lookup_translator
     - script_translator
