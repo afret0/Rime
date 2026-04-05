@@ -9,8 +9,8 @@ patch:
     good_old_caps_lock: true  # CapsLock 切换中英文
     switch_key:               # Shift 键快速切换
       Caps_Lock: commit_code  # CapsLock 上屏并切换
-      Shift_L: inline_ascii   # 左 Shift 临时英文
-      Shift_R: inline_ascii   # 右 Shift 临时英文
+      Shift_L: noop           # 左 Shift 不切换
+      Shift_R: commit_text    # 右 Shift 上屏并切换中英文
 
   key_binder:                 # 快捷键绑定
     bindings:
