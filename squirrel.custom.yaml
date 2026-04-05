@@ -9,6 +9,12 @@ patch:
     com.apple.Terminal:
       ascii_mode: true
       reset: true
+    com.jetbrains.goland:
+      ascii_mode: true
+      reset: true
+    com.jetbrains.datagrip
+      ascii_mode: true
+      reset: true
 
   style:
     color_scheme: tokyo_night
