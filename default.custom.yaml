@@ -20,8 +20,8 @@ patch:
       - { when: composing, accept: Shift+Tab, send: Page_Up }   # Shift+Tab 上一页
       - { when: composing, accept: Control+Shift+1, toggle: ascii_punct } # Ctrl+Shift+1 切换中英文标点
       - { when: composing, accept: Control+Shift+2, toggle: full_shape }  # Ctrl+Shift+2 切换全角/半角
-      - { when: composing, accept: comma, send: Page_Down }     # 输入逗号（，）翻到下一页
-      - { when: composing, accept: period, send: Page_Up }      # 输入句号（。）翻到上一页
+      - { when: composing, accept: comma, send:  Page_Up}     # 输入逗号（，）翻到下一页
+      - { when: composing, accept: period, send:  Page_Down}      # 输入句号（。）翻到上一页
 
   recognizer:                 # 正则匹配规则
     patterns:
