@@ -17,3 +17,4 @@ patch:
   translator/enable_user_dict: false
   translator/enable_encoder: false
   translator/encode_commit_history: false
+  speller/auto_select: true

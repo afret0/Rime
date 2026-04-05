@@ -1,4 +1,26 @@
 patch:
+  app_options:
+    com.microsoft.VSCode:
+      ascii_mode: true
+      reset: true
+    com.microsoft.VSCodeInsiders:
+      ascii_mode: true
+      reset: true
+    com.apple.Terminal:
+      ascii_mode: true
+      reset: true
+
+  style:
+    color_scheme: tokyo_night
+    font_face: "PingFang SC"
+    font_point: 16
+    label_font_point: 16
+    line_spacing: 6
+    spacing: 12
+    candidate_list_layout: linear
+    candidate_format: "%c %@"
+    inline_preedit: true
+
   preset_color_schemes:
     minimal_modern_dark:
       name: "护眼极简深色／Comfort Minimal Dark"
@@ -108,24 +130,3 @@ patch:
       hilited_candidate_label_color: 0x0AFAFA
       text_color: 0x0AFAFA
 
-  app_options:
-    com.microsoft.VSCode:
-      ascii_mode: true
-      reset: true
-    com.microsoft.VSCodeInsiders:
-      ascii_mode: true
-      reset: true
-    com.apple.Terminal:
-      ascii_mode: true
-      reset: true
-
-  style:
-    color_scheme: tokyo_night
-    font_face: "PingFang SC"
-    font_point: 16
-    label_font_point: 16
-    line_spacing: 6
-    spacing: 12
-    candidate_list_layout: linear
-    candidate_format: "%c %@"
-    inline_preedit: false
