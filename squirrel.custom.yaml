@@ -12,17 +12,17 @@ patch:
     com.jetbrains.goland:
       ascii_mode: true
       reset: true
-    com.jetbrains.datagrip
+    com.jetbrains.datagrip:
       ascii_mode: true
       reset: true
 
   style:
-    color_scheme: tokyo_night
+    color_scheme: afreto
     font_face: "PingFang SC"
     font_point: 16
     label_font_point: 16
-    line_spacing: 6
-    spacing: 12
+    line_spacing: 3
+    spacing: 6
     candidate_list_layout: linear
     candidate_format: "%c %@"
     inline_preedit: true
@@ -46,60 +46,6 @@ patch:
       hilited_candidate_label_color: 0xEEF4EC
       text_color: 0xD7DFD4
 
-    macos_light:
-      name: "macOS 原生浅色／macOS Light"
-      author: "Copilot"
-      back_color: 0xFFFFFF
-      border_color: 0xE0E0E0
-      border_width: 6
-      border_height: 6
-      corner_radius: 10
-      candidate_text_color: 0x1F1D1D
-      comment_text_color: 0x8B8686
-      label_color: 0x8B8686
-      hilited_back_color: 0xFFFFFF
-      hilited_candidate_back_color: 0xFF7A00
-      hilited_candidate_text_color: 0xFFFFFF
-      hilited_comment_text_color: 0xFFFFFF
-      hilited_candidate_label_color: 0xFFFFFF
-      text_color: 0x1F1D1D
-
-    nord_dark:
-      name: "Nord 深色／Nord Dark"
-      author: "Copilot"
-      back_color: 0x40342E
-      border_color: 0x52423B
-      border_width: 8
-      border_height: 8
-      corner_radius: 10
-      candidate_text_color: 0xE9DED8
-      comment_text_color: 0x6A564C
-      label_color: 0x6A564C
-      hilited_back_color: 0x40342E
-      hilited_candidate_back_color: 0x52423B
-      hilited_candidate_text_color: 0xF4EFEC
-      hilited_comment_text_color: 0xD0C088
-      hilited_candidate_label_color: 0xD0C088
-      text_color: 0xE9DED8
-
-    catppuccin_mocha:
-      name: "Catppuccin 摩卡／Catppuccin Mocha"
-      author: "Copilot"
-      back_color: 0x2E1E1E
-      border_color: 0x443231
-      border_width: 8
-      border_height: 8
-      corner_radius: 12
-      candidate_text_color: 0xF4D6CD
-      comment_text_color: 0xC8ADA6
-      label_color: 0xC8ADA6
-      hilited_back_color: 0x2E1E1E
-      hilited_candidate_back_color: 0x5A4745
-      hilited_candidate_text_color: 0xFEBEB4
-      hilited_comment_text_color: 0xF7A6CB
-      hilited_candidate_label_color: 0xFEBEB4
-      text_color: 0xF4D6CD
-
     tokyo_night:
       name: "东京之夜／Tokyo Night"
       author: "Copilot"
@@ -118,21 +64,39 @@ patch:
       hilited_candidate_label_color: 0xF7A27A
       text_color: 0xF5CAC0
 
-    cyberpunk_neon:
-      name: "赛博朋克霓虹／Cyberpunk Neon"
+    pastoral_green:
+      name: "田园绿／Pastoral Green"
       author: "Copilot"
-      back_color: 0x1A0A0A
-      border_color: 0xF032E6
-      border_width: 4
-      border_height: 4
-      corner_radius: 6
-      candidate_text_color: 0xFFF740
-      comment_text_color: 0xE65C00
-      label_color: 0xE65C00
-      hilited_back_color: 0x1A0A0A
-      hilited_candidate_back_color: 0xF032E6
-      hilited_candidate_text_color: 0x0AFAFA
-      hilited_comment_text_color: 0xFFF740
-      hilited_candidate_label_color: 0x0AFAFA
-      text_color: 0x0AFAFA
+      back_color: 0xE9FAFD
+      border_color: 0x6C8F5E
+      border_width: 3
+      border_height: 3
+      corner_radius: 8
+      candidate_text_color: 0x3D5C2E
+      comment_text_color: 0x6C8F5E
+      label_color: 0x6C8F5E
+      hilited_back_color: 0xE9FAFD
+      hilited_candidate_back_color: 0x6C8F5E
+      hilited_candidate_text_color: 0xFFFFFF
+      hilited_comment_text_color: 0xD0E8C4
+      hilited_candidate_label_color: 0xFFFFFF
+      text_color: 0x3D5C2E
+
+    afreto:
+      name: "afreto"
+      author: "Copilot"
+      back_color: 0x2E3B2B
+      border_color: 0x425B3E
+      border_width: 3
+      border_height: 3
+      corner_radius: 8
+      candidate_text_color: 0xC0D8C5
+      comment_text_color: 0x749B7A
+      label_color: 0x749B7A
+      hilited_back_color: 0x2E3B2B
+      hilited_candidate_back_color: 0x6C8F5E
+      hilited_candidate_text_color: 0xFFFFFF
+      hilited_comment_text_color: 0xC0D8C5
+      hilited_candidate_label_color: 0xFFFFFF
+      text_color: 0xC0D8C5
 
