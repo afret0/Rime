@@ -2,23 +2,17 @@ patch:
   app_options:
     com.microsoft.VSCode:
       ascii_mode: true
-      reset: true
     com.microsoft.VSCodeInsiders:
       ascii_mode: true
-      reset: true
     com.apple.Terminal:
       ascii_mode: true
-      reset: true
     com.jetbrains.goland:
       ascii_mode: true
-      reset: true
     com.jetbrains.datagrip:
       ascii_mode: true
-      reset: true
     com.postmanlabs.mac:
       ascii_mode: true
-      reset: true
-  
+
 
   style:
     color_scheme: afreto
