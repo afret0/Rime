@@ -15,6 +15,10 @@ patch:
     com.jetbrains.datagrip:
       ascii_mode: true
       reset: true
+    com.postmanlabs.mac:
+      ascii_mode: true
+      reset: true
+  
 
   style:
     color_scheme: afreto
