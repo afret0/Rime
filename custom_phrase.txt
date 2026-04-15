@@ -1,8 +1,7 @@
 # Rime custom phrases
-# Format: phrase<TAB>code<TAB>weight
-# - code: input code for your current schema (double pinyin in your case)
-# - weight: larger number appears earlier
-# Example:
+# 格式: 词组	编码	权重（权重越大排序越靠前）
+#
+# 示例:
 # 想你了	xdnl	10000
 # 大桥	dq	9000
 
@@ -11,11 +10,10 @@
 沪松公路	hussgslu	9999
 丰虹路	fghslu	9999
 O_o''	o	9999
-
-
-
-
-
-
-
-
+孔令宇	kslyyu	9999
+222403199403105216	sfz	9999
+18435155427	sjh	9999
+19299295412	sjh	9998
+Konglingyu2745+1	mm	9999
+kongandmarx@163.com	yx	9999
+kong5664546498@gmail.com	yx	9998
