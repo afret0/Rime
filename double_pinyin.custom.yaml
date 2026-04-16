@@ -1,6 +1,7 @@
 patch:
   switches/@0/states: [ 中, EN ]
   switches/@2/reset: 1  # 默认使用简体输出（汉字）
+  switches/@3/reset: 1  # 默认使用英文标点
   custom_phrase:
     dictionary: ""
     user_dict: custom_phrase
