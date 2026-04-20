@@ -10,7 +10,7 @@ patch:
     switch_key:               # Shift 键快速切换
       Caps_Lock: commit_code  # CapsLock 上屏并切换
       Shift_L: noop           # 左 Shift 不切换
-      Shift_R: commit_text    # 右 Shift 上屏并切换中英文
+      Shift_R: inline_ascii   # 右 Shift 进入行内英文，不先提交中文
 
   key_binder:                 # 快捷键绑定
     bindings:
