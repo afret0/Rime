@@ -10,12 +10,11 @@ patch:
     switch_key:               # Shift 键快速切换
       Caps_Lock: commit_code  # CapsLock 上屏并切换
       Shift_L: noop           # 左 Shift 不切换
-      Shift_R: commit_text    # 右 Shift 提交已输入内容并持久切换到英文模式
+      Shift_R: commit_code    # 右 Shift 提交已输入的字母并切换到英文模式
 
   key_binder:                 # 快捷键绑定
     bindings:
       # - { when: always, accept: Shift_L, toggle: ascii_mode }   # 左 Shift 切换中英文
-      - { when: always, accept: Shift_R, toggle: ascii_mode }   # 右 Shift 切换中英文
       - { when: composing, accept: Tab, send: Page_Down }       # Tab 翻页
       - { when: composing, accept: Shift+Tab, send: Page_Up }   # Shift+Tab 上一页
       - { when: composing, accept: Control+Shift+1, toggle: ascii_punct } # Ctrl+Shift+1 切换中英文标点
