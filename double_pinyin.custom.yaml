@@ -15,7 +15,7 @@ patch:
     - "table_translator@custom_phrase"
     - reverse_lookup_translator
     - script_translator
-  translator/enable_user_dict: true
-  translator/enable_encoder: true
-  translator/encode_commit_history: true
+  translator/enable_user_dict: false
+  translator/enable_encoder: false
+  translator/encode_commit_history: false
   speller/auto_select: false
