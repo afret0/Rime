@@ -8,6 +8,8 @@ patch:
       ascii_mode: true
     com.jetbrains.goland:
       ascii_mode: true
+    com.jetbrains.goland-EAP:
+      ascii_mode: true
     com.jetbrains.datagrip:
       ascii_mode: true
     com.postmanlabs.mac:
