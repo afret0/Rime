@@ -27,4 +27,6 @@ O_o''	o	9999
 申长	ufih	9999
 嘉松	jwss	9999
 派单厅	pldjty	9999
+云	yp	9999
+腾讯云	tgxpyp	9999
 
