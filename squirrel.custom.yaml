@@ -21,8 +21,8 @@ patch:
     font_face: "PingFang SC"
     font_point: 16
     label_font_point: 16
-    line_spacing: 3
-    spacing: 6
+    line_spacing: 2
+    spacing: 5
     candidate_list_layout: linear
     candidate_format: "%c %@"
     inline_preedit: true
@@ -49,9 +49,9 @@ patch:
     chinese_blue:
       name: "中国传统色·蓝色系／Chinese Blue"
       author: "Copilot"
-      border_width: 8
-      border_height: 8
-      corner_radius: 12
+      border_width: 3
+      border_height: 3
+      corner_radius: 8
       back_color: 0x3C2816
       border_color: 0x593A23
       candidate_text_color: 0xF2DBC0
@@ -67,9 +67,9 @@ patch:
     chinese_teal:
       name: "中国传统色·青色系／Chinese Teal"
       author: "Copilot"
-      border_width: 8
-      border_height: 8
-      corner_radius: 12
+      border_width: 3
+      border_height: 3
+      corner_radius: 8
       back_color: 0xD5DFC5
       border_color: 0xA39E57
       candidate_text_color: 0x7E8254
@@ -85,9 +85,9 @@ patch:
     chinese_green:
       name: "中国传统色·绿色系／Chinese Green"
       author: "Copilot"
-      border_width: 8
-      border_height: 8
-      corner_radius: 12
+      border_width: 3
+      border_height: 3
+      corner_radius: 8
       back_color: 0xE0EBDF
       border_color: 0x61956A
       candidate_text_color: 0x386A49
@@ -103,9 +103,9 @@ patch:
     chinese_orange:
       name: "中国传统色·橙色系／Chinese Orange"
       author: "Copilot"
-      border_width: 8
-      border_height: 8
-      corner_radius: 12
+      border_width: 3
+      border_height: 3
+      corner_radius: 8
       back_color: 0xBBD2F1
       border_color: 0x4F95C7
       candidate_text_color: 0x4D74A5
@@ -118,30 +118,12 @@ patch:
       hilited_candidate_label_color: 0xFFFFFF
       text_color: 0x4D74A5
 
-    chinese_red:
-      name: "中国传统色·红色系／Chinese Red"
-      author: "Copilot"
-      border_width: 8
-      border_height: 8
-      corner_radius: 12
-      back_color: 0x373A6D
-      border_color: 0x4A4C89
-      candidate_text_color: 0x728AD3
-      comment_text_color: 0x4F6095
-      label_color: 0x4F6095
-      hilited_back_color: 0x373A6D
-      hilited_candidate_back_color: 0x4A4C89
-      hilited_candidate_text_color: 0x7E92DB
-      hilited_comment_text_color: 0x6273B7
-      hilited_candidate_label_color: 0x7E92DB
-      text_color: 0x728AD3
-
     chinese_pink:
       name: "中国传统色·粉色系／Chinese Pink"
       author: "Copilot"
-      border_width: 8
-      border_height: 8
-      corner_radius: 12
+      border_width: 3
+      border_height: 3
+      corner_radius: 8
       back_color: 0xEBE1F9
       border_color: 0xA695D7
       candidate_text_color: 0x5D54B3
@@ -157,9 +139,9 @@ patch:
     chinese_purple:
       name: "中国传统色·紫色系／Chinese Purple"
       author: "Copilot"
-      border_width: 8
-      border_height: 8
-      corner_radius: 12
+      border_width: 3
+      border_height: 3
+      corner_radius: 8
       back_color: 0x4C3756
       border_color: 0x705261
       candidate_text_color: 0xE5D4E1
