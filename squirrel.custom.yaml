@@ -28,24 +28,6 @@ patch:
     inline_preedit: true
 
   preset_color_schemes:
-    afreto:
-      name: "afreto"
-      author: "Copilot"
-      back_color: 0x2E3B2B
-      border_color: 0x425B3E
-      border_width: 3
-      border_height: 3
-      corner_radius: 8
-      candidate_text_color: 0xC0D8C5
-      comment_text_color: 0x749B7A
-      label_color: 0x749B7A
-      hilited_back_color: 0x2E3B2B
-      hilited_candidate_back_color: 0x6C8F5E
-      hilited_candidate_text_color: 0xFFFFFF
-      hilited_comment_text_color: 0xC0D8C5
-      hilited_candidate_label_color: 0xFFFFFF
-      text_color: 0xC0D8C5
-
     chinese_blue:
       name: "中国传统色·蓝色系／Chinese Blue"
       author: "Copilot"
