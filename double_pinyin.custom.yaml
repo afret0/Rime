@@ -15,6 +15,11 @@ patch:
     - "table_translator@custom_phrase"
     - reverse_lookup_translator
     - script_translator
+  engine/filters:
+    - simplifier
+    - uniquifier
+    - lua_filter@demote_rare_char_filter
+  translator/dictionary: luna_pinyin_kk
   translator/enable_user_dict: false
   translator/enable_encoder: false
   translator/encode_commit_history: false
