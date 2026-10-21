@@ -17,7 +17,7 @@ patch:
 
 
   style:
-    color_scheme: afreto
+    color_scheme: chinese_green
     font_face: "PingFang SC"
     font_point: 16
     label_font_point: 16
@@ -28,60 +28,6 @@ patch:
     inline_preedit: true
 
   preset_color_schemes:
-    minimal_modern_dark:
-      name: "护眼极简深色／Comfort Minimal Dark"
-      author: "Copilot"
-      back_color: 0x202020
-      border_color: 0x2C2C2C
-      border_width: 8
-      border_height: 8
-      corner_radius: 12
-      candidate_text_color: 0xD7DFD4
-      comment_text_color: 0x8A9388
-      label_color: 0x9BA39A
-      hilited_back_color: 0x202020
-      hilited_candidate_back_color: 0x3A3A3A
-      hilited_candidate_text_color: 0xEEF4EC
-      hilited_comment_text_color: 0xC7D0C3
-      hilited_candidate_label_color: 0xEEF4EC
-      text_color: 0xD7DFD4
-
-    tokyo_night:
-      name: "东京之夜／Tokyo Night"
-      author: "Copilot"
-      back_color: 0x261B1A
-      border_color: 0x422E29
-      border_width: 8
-      border_height: 8
-      corner_radius: 10
-      candidate_text_color: 0xF5CAC0
-      comment_text_color: 0x895F56
-      label_color: 0x895F56
-      hilited_back_color: 0x261B1A
-      hilited_candidate_back_color: 0x422E29
-      hilited_candidate_text_color: 0xF7A27A
-      hilited_comment_text_color: 0xF79ABB
-      hilited_candidate_label_color: 0xF7A27A
-      text_color: 0xF5CAC0
-
-    pastoral_green:
-      name: "田园绿／Pastoral Green"
-      author: "Copilot"
-      back_color: 0xE9FAFD
-      border_color: 0x6C8F5E
-      border_width: 3
-      border_height: 3
-      corner_radius: 8
-      candidate_text_color: 0x3D5C2E
-      comment_text_color: 0x6C8F5E
-      label_color: 0x6C8F5E
-      hilited_back_color: 0xE9FAFD
-      hilited_candidate_back_color: 0x6C8F5E
-      hilited_candidate_text_color: 0xFFFFFF
-      hilited_comment_text_color: 0xD0E8C4
-      hilited_candidate_label_color: 0xFFFFFF
-      text_color: 0x3D5C2E
-
     afreto:
       name: "afreto"
       author: "Copilot"
@@ -100,3 +46,128 @@ patch:
       hilited_candidate_label_color: 0xFFFFFF
       text_color: 0xC0D8C5
 
+    chinese_blue:
+      name: "中国传统色·蓝色系／Chinese Blue"
+      author: "Copilot"
+      border_width: 8
+      border_height: 8
+      corner_radius: 12
+      back_color: 0x3C2816
+      border_color: 0x593A23
+      candidate_text_color: 0xF2DBC0
+      comment_text_color: 0x9E784F
+      label_color: 0x9E784F
+      hilited_back_color: 0x3C2816
+      hilited_candidate_back_color: 0xA1582B
+      hilited_candidate_text_color: 0xFFFFFF
+      hilited_comment_text_color: 0xD7C4A1
+      hilited_candidate_label_color: 0xFFFFFF
+      text_color: 0xF2DBC0
+
+    chinese_teal:
+      name: "中国传统色·青色系／Chinese Teal"
+      author: "Copilot"
+      border_width: 8
+      border_height: 8
+      corner_radius: 12
+      back_color: 0xD5DFC5
+      border_color: 0xA39E57
+      candidate_text_color: 0x7E8254
+      comment_text_color: 0x9AA06C
+      label_color: 0x9AA06C
+      hilited_back_color: 0xD5DFC5
+      hilited_candidate_back_color: 0x7E8254
+      hilited_candidate_text_color: 0xFFFFFF
+      hilited_comment_text_color: 0xD5D4B9
+      hilited_candidate_label_color: 0xFFFFFF
+      text_color: 0x7E8254
+
+    chinese_green:
+      name: "中国传统色·绿色系／Chinese Green"
+      author: "Copilot"
+      border_width: 8
+      border_height: 8
+      corner_radius: 12
+      back_color: 0xE0EBDF
+      border_color: 0x61956A
+      candidate_text_color: 0x386A49
+      comment_text_color: 0x7A8E7E
+      label_color: 0x7A8E7E
+      hilited_back_color: 0xE0EBDF
+      hilited_candidate_back_color: 0x61956A
+      hilited_candidate_text_color: 0xFFFFFF
+      hilited_comment_text_color: 0x9DD8C9
+      hilited_candidate_label_color: 0xFFFFFF
+      text_color: 0x386A49
+
+    chinese_orange:
+      name: "中国传统色·橙色系／Chinese Orange"
+      author: "Copilot"
+      border_width: 8
+      border_height: 8
+      corner_radius: 12
+      back_color: 0xBBD2F1
+      border_color: 0x4F95C7
+      candidate_text_color: 0x4D74A5
+      comment_text_color: 0x72A0BA
+      label_color: 0x72A0BA
+      hilited_back_color: 0xBBD2F1
+      hilited_candidate_back_color: 0x4F95C7
+      hilited_candidate_text_color: 0xFFFFFF
+      hilited_comment_text_color: 0xA5C3F1
+      hilited_candidate_label_color: 0xFFFFFF
+      text_color: 0x4D74A5
+
+    chinese_red:
+      name: "中国传统色·红色系／Chinese Red"
+      author: "Copilot"
+      border_width: 8
+      border_height: 8
+      corner_radius: 12
+      back_color: 0x373A6D
+      border_color: 0x4A4C89
+      candidate_text_color: 0x728AD3
+      comment_text_color: 0x4F6095
+      label_color: 0x4F6095
+      hilited_back_color: 0x373A6D
+      hilited_candidate_back_color: 0x4A4C89
+      hilited_candidate_text_color: 0x7E92DB
+      hilited_comment_text_color: 0x6273B7
+      hilited_candidate_label_color: 0x7E92DB
+      text_color: 0x728AD3
+
+    chinese_pink:
+      name: "中国传统色·粉色系／Chinese Pink"
+      author: "Copilot"
+      border_width: 8
+      border_height: 8
+      corner_radius: 12
+      back_color: 0xEBE1F9
+      border_color: 0xA695D7
+      candidate_text_color: 0x5D54B3
+      comment_text_color: 0x8581C0
+      label_color: 0x8581C0
+      hilited_back_color: 0xEBE1F9
+      hilited_candidate_back_color: 0xA695D7
+      hilited_candidate_text_color: 0xFFFFFF
+      hilited_comment_text_color: 0xDAD4F1
+      hilited_candidate_label_color: 0xFFFFFF
+      text_color: 0x5D54B3
+
+    chinese_purple:
+      name: "中国传统色·紫色系／Chinese Purple"
+      author: "Copilot"
+      border_width: 8
+      border_height: 8
+      corner_radius: 12
+      back_color: 0x4C3756
+      border_color: 0x705261
+      candidate_text_color: 0xE5D4E1
+      comment_text_color: 0x947891
+      label_color: 0x947891
+      hilited_back_color: 0x4C3756
+      hilited_candidate_back_color: 0x7E4A79
+      hilited_candidate_text_color: 0xE9DDF1
+      hilited_comment_text_color: 0xC8A8CE
+      hilited_candidate_label_color: 0xE9DDF1
+      text_color: 0xE5D4E1
