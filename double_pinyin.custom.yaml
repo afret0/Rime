@@ -17,8 +17,8 @@ patch:
     - script_translator
   engine/filters:
     - simplifier
-    - uniquifier
     - lua_filter@demote_rare_char_filter
+    - uniquifier
   translator/dictionary: luna_pinyin_kk
   translator/enable_user_dict: false
   translator/enable_encoder: false
