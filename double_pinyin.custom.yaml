@@ -24,3 +24,5 @@ patch:
   translator/enable_encoder: false
   translator/encode_commit_history: false
   speller/auto_select: false
+  "schema/zhung_icon": icons/zhung.ico
+  "schema/ascii_icon": icons/ascii.ico
