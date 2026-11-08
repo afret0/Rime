@@ -73,7 +73,16 @@ local function contains_unrenderable(text)
   return false
 end
 
+local IS_WINDOWS = (os and os.getenv and os.getenv("OS") == "Windows_NT")
+  or (package and package.config and package.config:sub(1, 1) == "\\")
+
 function hide_unrenderable_filter(input, env)
+  if IS_WINDOWS then
+    for cand in input:iter() do
+      yield(cand)
+    end
+    return
+  end
   for cand in input:iter() do
     if not contains_unrenderable(cand.text) then
       yield(cand)
