@@ -24,5 +24,6 @@ patch:
   translator/enable_encoder: false
   translator/encode_commit_history: false
   speller/auto_select: false
+  translator/preedit_format: []  # 编码区显示键盘实际按键, 不做全拼转换
   "schema/zhung_icon": icons/zhung.ico
   "schema/ascii_icon": icons/ascii.ico
