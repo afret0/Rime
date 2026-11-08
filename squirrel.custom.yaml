@@ -18,6 +18,7 @@ patch:
 
   style:
     color_scheme: afreto
+    color_scheme_dark: xxd_chanel_night
     font_face: "PingFang SC"
     font_point: 16
     label_font_point: 16
@@ -153,3 +154,36 @@ patch:
       hilited_comment_text_color: 0xC8A8CE
       hilited_candidate_label_color: 0xE9DDF1
       text_color: 0xE5D4E1
+
+    xxd_chanel_night:
+      name: xxd香奈儿黑夜
+      author: xxd
+      candidate_list_layout: linear
+      text_orientation: horizontal
+      inline_preedit: true
+      candidate_format: "%c\u2005%@"
+      corner_radius: 10
+      hilited_corner_radius: 6
+      border_height: 0
+      border_width: 4
+      line_spacing: 0
+      spacing: 8
+      base_offset: 0
+      back_color: 0x1C1C1C
+      border_color: 0x2A2A2A
+      candidate_back_color: 0x12FFFFFF
+      text_color: 0xD0D1D2
+      hilited_text_color: 0xD6D7D7
+      hilited_back_color: 0x000000
+      hilited_candidate_back_color: 0x000000
+      hilited_candidate_text_color: 0xF3F6F7
+      hilited_candidate_label_color: 0xF3F6F7
+      hilited_comment_text_color: 0xDBDBDB
+      candidate_text_color: 0xE8E8E8
+      comment_text_color: 0xA1A3A5
+      label_color: 0xA1A3A5
+      font_face: "PingFangSC-Regular"
+      font_point: 18
+      hilited_candidate_font_face: "PingFangSC-Semibold"
+      label_font_face: "PingFangSC-Regular"
+      label_font_point: 13
