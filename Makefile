@@ -16,6 +16,8 @@ android:
 	adb shell mkdir -p $(ANDROID_RIME)
 	adb push $(ANDROID_FILES) $(ANDROID_RIME)/
 	adb shell am broadcast -a com.osfans.trime.action.DEPLOY
-	@echo "deploy 广播已发, 约 20s 生效; 键盘没变就在同文设置里手动点一次部署"
+	adb shell am force-stop com.osfans.trime
+	adb shell am start -n com.osfans.trime/.ui.main.MainActivity
+	@echo "已重启同文触发部署(3.3.13 无 deploy 广播接收器, 靠启动时配置比对新旧); 新版同文广播即可生效"
 
 .PHONY: build android
