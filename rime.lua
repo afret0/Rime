@@ -62,3 +62,21 @@ function radical_lookup_trigger(key, env)
   engine:process_key(KeyEvent(RADICAL_LOOKUP_PREFIX_KEYCODE, 0))
   return KACCEPTED
 end
+
+local function contains_unrenderable(text)
+  if not text then return false end
+  for _, code in utf8.codes(text) do
+    if code > 0xFFFF then
+      return true
+    end
+  end
+  return false
+end
+
+function hide_unrenderable_filter(input, env)
+  for cand in input:iter() do
+    if not contains_unrenderable(cand.text) then
+      yield(cand)
+    end
+  end
+end

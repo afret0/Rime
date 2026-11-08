@@ -39,6 +39,7 @@ patch:
   engine/filters:
     - simplifier
     - lua_filter@demote_rare_char_filter
+    - lua_filter@hide_unrenderable_filter
     - reverse_lookup_filter@radical_reverse_lookup
     - uniquifier
   translator/dictionary: luna_pinyin_kk
@@ -61,6 +62,8 @@ patch:
     enable_user_dict: false
     comment_format:
       - "erase/^.*$//"
+  hide_unrenderable_filter:
+    tags: [ radical_lookup ]
   radical_reverse_lookup:
     tags: [ radical_lookup ]
     overwrite_comment: true
