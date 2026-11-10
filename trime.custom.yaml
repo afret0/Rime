@@ -1,42 +1,80 @@
 patch:
-  style/color_scheme: afreto
-  style/horizontal_gap: 5
+  style/horizontal_gap: 4
   style/vertical_gap: 10
+  style/symbol_text_size: 11
+  style/key_hint_offset_y: -30
+  style/key_text_offset_y: 3
 
-  preset_color_schemes/xxd_chanel_night:
-    name: xxd香奈儿黑夜
-    author: xxd
-    back_color: 0xff1c1c1c
-    border_color: 0xff2a2a2a
-    candidate_separator_color: 0xff2a2a2a
-    text_color: 0xffd2d1d0
-    hilited_text_color: 0xffd7d7d6
-    hilited_back_color: 0xff000000
-    text_back_color: 0xcc1c1c1c
-    candidate_text_color: 0xffe8e8e8
-    comment_text_color: 0xffa5a3a1
-    label_color: 0xffa5a3a1
-    hilited_candidate_back_color: 0xff000000
-    hilited_candidate_text_color: 0xfff7f6f3
-    hilited_comment_text_color: 0xffdbdbdb
-    keyboard_back_color: 0xff1c1c1c
+  preset_color_schemes/default: &dark
+    name: afreto暗色
+    author: Copilot
+    back_color: 0xff141414
+    border_color: 0xff242424
+    candidate_separator_color: 0xff141414
+    text_color: 0xffebe0df
+    hilited_text_color: 0xffffffff
+    hilited_back_color: 0xff3a3a3a
+    text_back_color: 0xcc141414
+    candidate_text_color: 0xffebe0df
+    comment_text_color: 0x80ffffff
+    label_color: 0x80ffffff
+    hilited_candidate_back_color: 0xff3a3a3a
+    hilited_candidate_text_color: 0xffffffff
+    hilited_comment_text_color: 0xffebe0df
+    keyboard_back_color: 0xff000000
     key_back_color: 0xff242424
-    key_text_color: 0xffd2d1d0
-    key_symbol_color: 0xffa5a3a1
-    hilited_key_back_color: 0xff2a2a2a
-    hilited_key_text_color: 0xfff7f6f3
-    hilited_key_symbol_color: 0xfff7f6f3
+    key_text_color: 0xffebe0df
+    key_symbol_color: 0x80ffffff
+    hilited_key_back_color: 0xff3a3a3a
+    hilited_key_text_color: 0xffffffff
+    hilited_key_symbol_color: 0xffffffff
     off_key_back_color: 0xff242424
-    off_key_text_color: 0xffd2d1d0
-    on_key_back_color: 0xff2a2a2a
-    on_key_text_color: 0xfff7f6f3
-    hilited_off_key_back_color: 0xff2a2a2a
-    hilited_off_key_text_color: 0xfff7f6f3
-    hilited_on_key_back_color: 0xff2a2a2a
-    hilited_on_key_text_color: 0xfff7f6f3
-    preview_back_color: 0xcc2a2a2a
-    preview_text_color: 0xfff7f6f3
+    off_key_text_color: 0xffebe0df
+    on_key_back_color: 0xff242424
+    on_key_text_color: 0xffebe0df
+    hilited_off_key_back_color: 0xff3a3a3a
+    hilited_off_key_text_color: 0xffffffff
+    hilited_on_key_back_color: 0xff3a3a3a
+    hilited_on_key_text_color: 0xffffffff
+    preview_back_color: 0xcc242424
+    preview_text_color: 0xffffffff
     shadow_color: 0xff000000
+  preset_color_schemes/aqua: *dark
+  preset_color_schemes/azure: *dark
+  preset_color_schemes/luna: *dark
+  preset_color_schemes/ink: *dark
+  preset_color_schemes/lost_temple: *dark
+  preset_color_schemes/dark_temple: *dark
+  preset_color_schemes/starcraft: *dark
+  preset_color_schemes/google: *dark
+  preset_color_schemes/solarized_rock: *dark
+  preset_color_schemes/tintin: *dark
+  preset_color_schemes/dota_2: *dark
+  preset_color_schemes/brasil: *dark
+  preset_color_schemes/doraemon: *dark
+  preset_color_schemes/espagna: *dark
+  preset_color_schemes/gholabok: *dark
+  preset_color_schemes/kuma_shuzboz: *dark
+  preset_color_schemes/kuon: *dark
+  preset_color_schemes/macau: *dark
+  preset_color_schemes/nba: *dark
+  preset_color_schemes/ps4: *dark
+  preset_color_schemes/skype: *dark
+  preset_color_schemes/xbox_silver: *dark
+  preset_color_schemes/youtube: *dark
+  preset_color_schemes/so_young: *dark
+  preset_color_schemes/smurfs: *dark
+  preset_color_schemes/wii: *dark
+  preset_color_schemes/android: *dark
+  preset_color_schemes/cool_breeze: *dark
+  preset_color_schemes/google_plus: *dark
+  preset_color_schemes/modern_warfare: *dark
+  preset_color_schemes/brisk: *dark
+  preset_color_schemes/starcraft_ii: *dark
+  preset_color_schemes/steam: *dark
+  preset_color_schemes/flypy: *dark
+  preset_color_schemes/tantsing: *dark
+  preset_color_schemes/yygc: *dark
 
   preset_color_schemes/afreto:
     name: afreto彩键
@@ -77,11 +115,53 @@ patch:
   preset_keys/Hide/label: "⌄"
   preset_keys/clipboard_window/label: "✂"
   preset_keys/liquid_keyboard_emoji/label: "☺"
+  preset_keys/Keyboard_symbols/label: 符号
+  preset_keys/Keyboard_number/label: "123"
+  preset_keys/BackSpace/label: "✕"
+  preset_keys/Mode_switch/label: 中文
+  preset_keys/space/label: "—"
+  preset_keys/fenci:
+    click: "'"
+    label: 分词
   preset_keys/my_phrases:
     command: liquid_keyboard
     label: "💬"
     option: 常用语
     send: FUNCTION
+  preset_keys/history_kb:
+    command: liquid_keyboard
+    label: "🕘"
+    option: history
+    send: FUNCTION
+
+  tool_bar/primary_button:
+    action: Settings
+    size: [18, 18]
+    background: {type: rectangle, normal: 0x00000000}
+    foreground: {style: "ic@cog_outline", normal: 0xffbfbfbf, highlight: 0xffffffff}
+  tool_bar/buttons:
+    - action: Hide
+      size: [18, 18]
+      background: {type: rectangle, normal: 0x00000000}
+      foreground: {style: "ic@chevron_down", normal: 0xffbfbfbf, highlight: 0xffffffff}
+    - action: my_phrases
+      size: [18, 18]
+      background: {type: rectangle, normal: 0x00000000}
+      foreground: {style: "ic@book_outline", normal: 0xffbfbfbf, highlight: 0xffffffff}
+    - action: clipboard_window
+      size: [18, 18]
+      background: {type: rectangle, normal: 0x00000000}
+      foreground: {style: "ic@content_cut", normal: 0xffbfbfbf, highlight: 0xffffffff}
+    - action: Left
+      long_press_action: Right
+      size: [18, 18]
+      background: {type: rectangle, normal: 0x00000000}
+      foreground: {style: "ic@cursor_move", normal: 0xffbfbfbf, highlight: 0xffffffff}
+    - action: history_kb
+      size: [18, 18]
+      background: {type: rectangle, normal: 0x00000000}
+      foreground: {style: "ic@history", normal: 0xffbfbfbf, highlight: 0xffffffff}
+  tool_bar/button_spacing: 40
 
   liquid_keyboard/my_phrases:
     name: 常用语
@@ -89,53 +169,49 @@ patch:
     keys: ["你好, 在吗?", "稍等, 马上到", "收到, 谢谢"]
   liquid_keyboard/keyboards: [my_phrases, emoji, math, ascii, cn, history, symbollist, list, ids, symbol, tabs, pinyin, script_symbols, jp, grease, rusa, korea, lation, yinbiao, unit, yanwenzi, combing, emoji_full]
 
-  preset_keyboards/double_pinyin:
+  preset_keyboards/default: &kb
     name: "afreto彩键26"
     author: Copilot
     ascii_mode: 0
     lock: true
-    height: 46
+    height: 51
     keys: [
-      {click: Settings, width: 16.6, height: 34},
-      {click: liquid_keyboard_emoji, width: 16.7, height: 34},
-      {click: Left, long_click: Right, label: "↔", width: 16.7, height: 34},
-      {click: clipboard_window, width: 16.7, height: 34},
-      {click: my_phrases, width: 16.7, height: 34},
-      {click: Hide, width: 16.6, height: 34},
-      {click: q, hint: "1", long_click: "1", width: 9.7, key_back_color: 0xff651f19},
-      {click: w, hint: "2", long_click: "2", width: 9.7, key_back_color: 0xff754500},
-      {click: e, hint: "3", long_click: "3", width: 9.7, key_back_color: 0xff765e00},
-      {click: r, hint: "4", long_click: "4", width: 9.7, key_back_color: 0xff074829},
-      {click: t, hint: "5", long_click: "5", width: 9.7, key_back_color: 0xff00463e},
-      {click: y, hint: "6", long_click: "6", width: 9.7, key_back_color: 0xff00463e},
-      {click: u, hint: "7", long_click: "7", width: 9.7, key_back_color: 0xff594c75},
-      {click: i, hint: "8", long_click: "8", width: 9.7, key_back_color: 0xff74465e},
-      {click: o, hint: "9", long_click: "9", width: 9.7, key_back_color: 0xff4d6076},
-      {click: p, hint: "0", long_click: "0", width: 9.7, key_back_color: 0xff2f4675},
-      {width: 4.85},
-      {click: a, hint: "~", long_click: "~", width: 9.7, key_back_color: 0xff651f19},
-      {click: s, hint: "!", long_click: "!", width: 9.7, key_back_color: 0xff754500},
-      {click: d, hint: "@", long_click: "@", width: 9.7, key_back_color: 0xff765e00},
-      {click: f, hint: "/", long_click: "/", width: 9.7, key_back_color: 0xff074829},
-      {click: g, hint: "%", long_click: "%", width: 9.7, key_back_color: 0xff00463e},
-      {click: h, hint: "\"", long_click: "\"", width: 9.7, key_back_color: 0xff594c75},
-      {click: j, hint: "\"", long_click: "\"", width: 9.7, key_back_color: 0xff74465e},
-      {click: k, hint: "*", long_click: "*", width: 9.7, key_back_color: 0xff4d6076},
-      {click: l, hint: "?", long_click: "?", width: 9.7, key_back_color: 0xff2f4675},
-      {width: 4.85},
-      {click: "'", label: 分词, width: 13.2},
-      {click: z, hint: "(", long_click: "(", width: 9.7, key_back_color: 0xff651f19},
-      {click: x, hint: ")", long_click: ")", width: 9.7, key_back_color: 0xff754500},
-      {click: c, hint: "-", long_click: "-", width: 9.7, key_back_color: 0xff765e00},
-      {click: v, hint: "_", long_click: "_", width: 9.7, key_back_color: 0xff074829},
-      {click: b, hint: ":", long_click: ":", width: 9.7, key_back_color: 0xff74465e},
-      {click: n, hint: ";", long_click: ";", width: 9.7, key_back_color: 0xff4d6076},
-      {click: m, hint: "、", long_click: "、", width: 9.7, key_back_color: 0xff2f4675},
-      {click: BackSpace, width: 13.2},
-      {click: Keyboard_symbols, label: 符号, width: 12.6},
-      {click: Keyboard_number, label: "123", width: 10.5},
-      {click: ",", width: 8.5},
-      {click: space, width: 25.5},
-      {click: ".", width: 8.5},
-      {click: Mode_switch, long_click: Menu, width: 10.7},
-      {click: Return, composing: Return1, width: 12.8}]
+      {click: q, hint: "1", long_click: {click: "1", label: " "}, height: 51, width: 9.8, key_back_color: 0xff651f19},
+      {click: w, hint: "2", long_click: {click: "2", label: " "}, width: 9.8, key_back_color: 0xff754500},
+      {click: e, hint: "3", long_click: {click: "3", label: " "}, width: 9.8, key_back_color: 0xff765e00},
+      {click: r, hint: "4", long_click: {click: "4", label: " "}, width: 9.8, key_back_color: 0xff074829},
+      {click: t, hint: "5", long_click: {click: "5", label: " "}, width: 9.8, key_back_color: 0xff00463e},
+      {click: y, hint: "6", long_click: {click: "6", label: " "}, width: 9.8, key_back_color: 0xff00463e},
+      {click: u, hint: "7", long_click: {click: "7", label: " "}, width: 9.8, key_back_color: 0xff594c75},
+      {click: i, hint: "8", long_click: {click: "8", label: " "}, width: 9.8, key_back_color: 0xff74465e},
+      {click: o, hint: "9", long_click: {click: "9", label: " "}, width: 9.8, key_back_color: 0xff4d6076},
+      {click: p, hint: "0", long_click: {click: "0", label: " "}, width: 9.8, key_back_color: 0xff2f4675},
+      {width: 5.9, height: 52},
+      {click: a, hint: "~", long_click: {click: "~", label: " "}, width: 9.8, key_back_color: 0xff651f19},
+      {click: s, hint: "!", long_click: {click: "!", label: " "}, width: 9.8, key_back_color: 0xff754500},
+      {click: d, hint: "@", long_click: {click: "@", label: " "}, width: 9.8, key_back_color: 0xff765e00},
+      {click: f, hint: "/", long_click: {click: "/", label: " "}, width: 9.8, key_back_color: 0xff074829},
+      {click: g, hint: "%", long_click: {click: "%", label: " "}, width: 9.8, key_back_color: 0xff00463e},
+      {click: h, hint: "\"", long_click: {click: "\"", label: " "}, width: 9.8, key_back_color: 0xff594c75},
+      {click: j, hint: "\"", long_click: {click: "\"", label: " "}, width: 9.8, key_back_color: 0xff74465e},
+      {click: k, hint: "*", long_click: {click: "*", label: " "}, width: 9.8, key_back_color: 0xff4d6076},
+      {click: l, hint: "?", long_click: {click: "?", label: " "}, width: 9.8, key_back_color: 0xff2f4675},
+      {width: 5.9},
+      {click: fenci, height: 49, width: 14.2},
+      {click: z, hint: "(", long_click: {click: "(", label: " "}, width: 9.86, key_back_color: 0xff651f19},
+      {click: x, hint: ")", long_click: {click: ")", label: " "}, width: 9.86, key_back_color: 0xff754500},
+      {click: c, hint: "-", long_click: {click: "-", label: " "}, width: 9.86, key_back_color: 0xff765e00},
+      {click: v, hint: "_", long_click: {click: "_", label: " "}, width: 9.86, key_back_color: 0xff074829},
+      {click: b, hint: ":", long_click: {click: ":", label: " "}, width: 9.86, key_back_color: 0xff74465e},
+      {click: n, hint: ";", long_click: {click: ";", label: " "}, width: 9.86, key_back_color: 0xff4d6076},
+      {click: m, hint: "、", long_click: {click: "、", label: " "}, width: 9.86, key_back_color: 0xff2f4675},
+      {click: BackSpace, width: 15.6},
+      {click: Keyboard_symbols, height: 32, width: 14.2},
+      {click: Keyboard_number, width: 12.4},
+      {click: ",", width: 10.1},
+      {click: space, width: 26.4},
+      {click: ".", width: 10.2},
+      {click: Mode_switch, long_click: Menu, hint: "", width: 12.4},
+      {click: Return, composing: Return1, width: 14.3}]
+  preset_keyboards/double_pinyin:
+    import_preset: default
