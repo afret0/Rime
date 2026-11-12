@@ -17,6 +17,8 @@ patch:
       vim_mode: true
     com.postmanlabs.mac:
       ascii_mode: true
+    me.qii404.another-redis-desktop-manager:
+      ascii_mode: true
 
 
   style:
